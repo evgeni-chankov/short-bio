@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+}
+
+#outer-container{
+    max-width: 80%;
+    height: 100%;
+    background-color: #E8E8E7;
+    padding-top: 1em;
+    margin: auto;
+}
+
+#top-content{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/woods.jpg");
+    min-height: 25em;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    border: 2px solid #ffffff;
+    padding: 2em 4em;
+}
+
+.headings h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3em;
+    font-stretch: expanded;
+    max-width: 100%;
+    margin: auto;
+}
+
+.headings h4{
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 1em;
+    max-width: 80%;
+    margin: auto;
+    font-stretch: extra-expanded;
+}
+
+#separator{
+    margin-top: 1em; 
+    background-color: #8BCC98;
+    min-height: 0.8em;
+    min-width: 100%;
+}
+
+#main-content{
+    max-width: 50%;
+    background-color: #ffffff;
+    margin: 1em auto;
+    padding: 1em 1em;
+}
+
+.article:nth-child(2){
+    margin-top: 1em;
+}
+
+.article h3{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #444;
+}
+
+.article p{
+    font-size: 0.8em;
+    text-indent: 3em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 0.8em;
+}
